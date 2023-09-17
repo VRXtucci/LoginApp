@@ -1,0 +1,239 @@
+/* styles.css */
+
+.navbar-custom{
+    background-color: #FFF !important;
+}
+
+
+
+/* Estilos del contenedor principal */
+.login-container {
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 693px;
+    height: 635px;
+    border-radius: 24px;
+    border: 1px solid #BDBDBD;
+}
+
+/* Estilos para la imagen */
+.login-container > img{
+    width: 130px;
+    height: 18px;
+}
+
+/* Estilos para el título h2 */
+.login-container h2{
+    color: #333;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Estilos para los párrafos */
+.login-container p {
+    color: #333;
+    font-family: Noto Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Estilos para el botón */
+.login-container button{
+    color: #FFF;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Estilos para el texto 'or continue with these social profiles' */
+.login-container span{
+    text-align: center;
+    color: #828282;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Estilos para las redes sociales */
+.redes {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilos para el texto 'Already a member?' */
+.login-container strong{
+    color: #828282;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.49px;
+}
+
+
+.custom-table{
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    width: 845px;
+    height: 580px;
+}
+
+.flex-tr{
+    display: flex;
+    align-items: center;
+}
+
+
+.flex{
+    position: relative;
+    left: 50%;
+    border-top: none !important;
+}
+
+.flex-td{
+    border-top: none !important;
+}
+
+
+.flex-td h3{
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flex-td p{
+    color: #828282;
+    font-family: Noto Sans;
+    font-size: 18px;
+}
+
+.flex button{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #FFF;
+    width: 95px;
+    height: 38px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    color: #828282;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.title{
+    color: #BDBDBD;
+    font-family: Noto Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.table td{
+    color: #333;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.63px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.titles{
+    color: #4F4F4F;
+    font-family: Noto Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.455px;
+}
+
+.infos{
+    color: #828282;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.455px;
+}
+
+.btn-custon{
+    padding: 25px 15px !important;
+}
+
+.Btn-Custom a{
+    border: none;
+    background-color: #fff;
+    color: #2D9CDB;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.63px;
+}
+
+#photo-upload {
+    display: none;
+}
+
+
+.menu{
+    color: #4F4F4F;
+    font-family: Noto Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.42px;
+}
+
+
+.red{
+    color:#EB5757;
+    font-family: Noto Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.42px;
+}

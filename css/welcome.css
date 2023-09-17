@@ -1,0 +1,42 @@
+/* Estilos para el cuerpo y el contenedor principal */
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+/* Estilos para el texto de bienvenida */
+.welcome-text {
+    font-size: 125px;
+    font-weight: bold;
+    color: #ffffff; /* Color del texto */
+    animation: fadeIn 2s ease-in-out forwards; /* Animación de entrada */
+    text-shadow:
+        -5px -5px 0 #70009c, /* Borde superior izquierdo */
+         -5px -5px 0 #70009c, /* Borde superior derecho */
+        -5px -5px 0 #70009c,  /* Borde inferior izquierdo */
+         -5px -5px 0 #70009c;  /* Borde inferior derecho */
+}
+
+
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
